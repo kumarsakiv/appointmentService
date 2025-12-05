@@ -2,7 +2,7 @@ import React from 'react'
 import { Routes, Route, Link } from 'react-router-dom'
 import { useDispatch, useSelector } from 'react-redux'
 import { login, logout } from './features/auth/authSlice'
-import ProtectedRoute from './features/auth/protectedRoutes'
+import ProtectedRoute from './features/auth/ProtectedRoutes'
 import BookingsPage from './features/booking/BookingsPage'
 
 function Agent() {
